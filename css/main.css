@@ -58,9 +58,9 @@ h3 {
 /*Main Page Content*/
 main {
     margin-left: 30%; 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     background-image: url("../img/ricepaper_v3.png");
     opacity: 0.9;
 } 
@@ -106,4 +106,27 @@ footer {
 	border-color: #EC791F;
 	font-size: 80%;
 	text-align: right;
+}
+
+/*Media Query Sizing*/
+@media screen and (max-width: 992px) {
+    body {
+        background-image: none;
+        font-size: 16px;
+    }
+    ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    display: inline;
+	}
+	li {
+	    display: inline;
+	}
+    main {
+    	margin: 0px 0px 0px 0px;
+    }
+    #tag-line {
+    	display: none;
+    }
 }
