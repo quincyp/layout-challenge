@@ -116,12 +116,19 @@ footer {
     }
     ul {
 	    list-style-type: none;
-	    margin: 0;
-	    padding: 0;
+	    margin: 0px 0px 0px 0px;
+	    padding: 0px 0px 0px 0px;
 	    display: inline;
 	}
 	li {
 	    display: inline;
+	    margin-right: 1em;
+	}
+	nav {
+		color: #55E;
+	}
+	nav:hover {
+			color: #0000EE;
 	}
     main {
     	margin: 0px 0px 0px 0px;
