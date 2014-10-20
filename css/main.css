@@ -109,15 +109,22 @@ footer {
 }
 
 /*Navigation*/
-ul {
-	    list-style-type: none;
-	    margin: 0px 0px 0px 0px;
-	    padding: 0px 0px 0px 0px;
-	    display: inline;
+nav ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline;
 }
-li {
-	    display: inline;
-	    margin-right: 1em;
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+nav a:link {
+	color: #55E;
+	font-size: 20px;
+}
+nav a:hover {
+	color: #0000EE;
 }
 
 /*Media Query Sizing*/
@@ -126,15 +133,7 @@ li {
         background-image: none;
         font-size: 16px;
     }
-    
 	
-	nav.a:link {
-		color: #55E;
-		font-size: 20px;
-	}
-	/*nav:hover {
-			color: #0000EE;
-	}*/
 	.container-fluid {
 		margin-top: 0px;
 		margin-bottom: 0px;
