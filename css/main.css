@@ -108,27 +108,36 @@ footer {
 	text-align: right;
 }
 
+/*Navigation*/
+ul {
+	    list-style-type: none;
+	    margin: 0px 0px 0px 0px;
+	    padding: 0px 0px 0px 0px;
+	    display: inline;
+}
+li {
+	    display: inline;
+	    margin-right: 1em;
+}
+
 /*Media Query Sizing*/
 @media screen and (max-width: 992px) {
     body {
         background-image: none;
         font-size: 16px;
     }
-    ul {
-	    list-style-type: none;
-	    margin: 0px 0px 0px 0px;
-	    padding: 0px 0px 0px 0px;
-	    display: inline;
-	}
-	li {
-	    display: inline;
-	    margin-right: 1em;
-	}
-	nav {
+    
+	
+	nav.a:link {
 		color: #55E;
+		font-size: 20px;
 	}
-	nav:hover {
+	/*nav:hover {
 			color: #0000EE;
+	}*/
+	.container-fluid {
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
     main {
     	margin: 0px 0px 0px 0px;
