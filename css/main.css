@@ -149,6 +149,7 @@ nav a:hover {
 		font-size: 18px;
 	}
 	.container-fluid {
+		position: absolute;
 		margin-left: 30%; 
 	    margin-top: 20px;
 	    margin-bottom: 20px;
